@@ -1,0 +1,237 @@
+html{
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    margin: 0;
+    font-family: system-ui;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to bottom,  rgb(182, 121, 201), rgb(248, 129, 252), rgb(255, 169, 39));
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    z-index: 10;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.4);
+    flex: 1;
+}
+
+.right-section{
+    display: flex;
+}
+
+.left-section{
+    margin: 0.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo{
+    color: rgb(255, 255, 255);
+    padding: .11rem .50rem;
+    font-size:2rem;
+    margin: 0;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.searchbar{
+    border: none;
+    border-radius:.5rem;
+    height: 2rem;
+    padding: 0.2rem 0.5rem;
+    outline: none;
+    width: 15rem;
+    flex: 1;
+    max-width: 35rem;
+    margin: 0 .9rem;
+    caret-color: rgb(88, 0, 29);
+    min-width:1rem;
+    transition: .30s;
+    font-size: medium;
+}
+
+.searchbar:focus{
+  padding: .4rem .5rem;
+}
+.signup-button,
+.home-button,
+.about-button,
+.login-button{
+   border:none;
+    background-color: white;
+    padding: .5rem .7rem;
+    border-radius: .31rem;
+    color: white;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: .8rem;
+    font-weight: bold;
+    white-space: nowrap;
+    
+}
+
+.signup-button:hover,
+.home-button:hover,
+.about-button:hover,
+.login-button:hover{
+  transition:.20s;
+  background-color: rgba(65, 65, 65, 0.2);
+}
+
+.signup-button:active,
+.home-button:active,
+.about-button:active,
+.login-button:active{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+  
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:linear-gradient(to bottom,  rgb(182, 121, 201), rgb(248, 129, 252), rgb(255, 169, 39));
+    font-family: Arial, sans-serif;
+  }
+  main{
+    display:flex;
+
+  }
+  
+  form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 1rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 10px  rgb(255, 255, 255);
+    border-radius: 1rem;
+    transition: all .30s;
+  }
+
+  form input{
+    padding: .5rem;
+    border-radius: .4rem;
+    outline: none;
+    border: none;
+    margin: .3rem;
+    caret-color: rgb(255, 107, 132);
+    font-size:medium;
+    transition: .23s;
+  }
+
+  form input:focus{
+    padding: .7rem;
+  }
+  
+  .form-title h1{
+    color:#ffffff;
+    font-family: system-ui;
+    font-weight: 100;
+  }
+
+  
+
+  .user-name-info{
+    display: flex;
+    flex-wrap: wrap;
+    flex:1;
+    flex-basis: 0;
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .user-email-password{
+    display: flex;
+    flex:1;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .forgot-password{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    
+  }
+
+  .forgot-password P{
+    color: #ffffff;
+    font-family: system-ui;
+    font-size:large;
+    cursor: pointer;
+    
+  }
+
+  .forgot-password P:hover{
+    border-radius: .3rem;
+    padding: .2rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: .20s;
+  }
+  
+  .forgot-password P:active{
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-button-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    transition:.30s;
+  }
+
+  .form-signup{
+    border: none;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: .5rem 1rem;
+    border-radius: .4rem;
+    color: #ffffff;
+    transition:.20s;
+  }
+
+  .form-signup:hover{
+    padding: .6rem 1.2rem;
+    transition:.20s;
+  }
+
+  .form-signup:active{
+    background-color: rgba(0, 0, 0, 0.2);
+  }

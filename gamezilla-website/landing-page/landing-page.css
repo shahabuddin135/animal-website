@@ -1,0 +1,211 @@
+html{
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    height: 100%;
+    width:100% ;
+    background-size:cover;
+    font-family: system-ui;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(to bottom,  rgb(87, 112, 255), rgb(255, 255, 255), rgb(0, 255, 0));
+}
+
+.background-picture{
+  position: absolute;
+  padding: 1rem;
+  z-index: -1;
+}
+
+.background-svg{
+  height: 200%;
+  width: 200%;
+  top: 15rem;
+  bottom:10rem;
+  right: 0;
+  left: 10rem;
+  z-index: -1;
+  position: relative;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    z-index: 10;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.4);
+    flex: 1;
+}
+
+.right-section{
+    display: flex;
+}
+
+.left-section{
+    margin: 0.4rem;
+}
+
+#logo{
+    color: rgb(255, 255, 255);
+    padding: .11rem .50rem;
+    font-size:2rem;
+    margin: 0;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.searchbar{
+    border: none;
+    border-radius:.5rem;
+    height: 2rem;
+    padding: 0.2rem 0.5rem;
+    outline: none;
+    width: 15rem;
+    flex: 1;
+    max-width: 35rem;
+    margin: 0 .9rem;
+    caret-color: rgb(255, 164, 194);
+    min-width:1rem;
+    transition: .30s;
+    font-size: medium;
+}
+
+.searchbar:focus{
+  padding: .4rem .5rem;
+}
+.signup-button,
+.home-button,
+.about-button,
+.login-button{
+   border:none;
+    background-color: white;
+    padding: .5rem .7rem;
+    border-radius: .31rem;
+    color: white;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: .8rem;
+    font-weight: bold;
+    white-space: nowrap;
+    
+}
+
+.signup-button:hover,
+.home-button:hover,
+.about-button:hover,
+.login-button:hover{
+  transition:.20s;
+  background-color: rgba(65, 65, 65, 0.2);
+}
+
+.signup-button:active,
+.home-button:active,
+.about-button:active,
+.login-button:active{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+  
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(to bottom,  rgb(106, 0, 138), rgb(248, 129, 252), rgb(255, 169, 39));
+  }
+
+  .landing-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+  }
+
+  .landing-title h1{
+    color: white;
+    margin:.3rem;
+    font-family: system-ui;
+    font-weight: 100;
+    font-size:760%;
+    letter-spacing: 1rem;
+  }
+
+  .landing-title h2{
+    color: white;
+    margin:.3rem;
+    font-family: system-ui;
+    font-weight: 100;
+    font-size:200%;
+  }
+
+  .landing-title h4{
+    color: white;
+    margin:.3rem;
+    font-family: system-ui;
+    font-weight: 100;
+    font-size:100%;
+  }
+
+  .landing-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin: 1rem;
+  }
+
+  .landing-button button{
+      border:none;
+       background-color: white;
+       padding: .5rem .7rem;
+       border-radius: .31rem;
+       color: white;
+       backdrop-filter: blur(10px);
+       background-color: rgba(255, 255, 255, 0.2);
+       margin: .8rem;
+       white-space: nowrap;
+       font-size: larger;
+   }
+   
+   .landing-button button:hover{
+     transition:.20s;
+     background-color: rgba(104, 104, 104, 0.2);
+   }
+   
+   .landing-button button:active{
+     background-color: rgba(0, 0, 0, 0.2);
+   }
+  
+
+
